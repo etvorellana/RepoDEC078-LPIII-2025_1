@@ -25,7 +25,9 @@ replay_pid*
 
 #Configurações
 .vscode/*
+.DS_Store
 
 # Compilados
 Aula_01/output/*
+Aula_02/output/*
 
