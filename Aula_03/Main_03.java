@@ -42,3 +42,30 @@ public class Main_03 {
 }
 
 
+/* 
+Compilando
+$ javac Main_03.java
+Executando
+$ java Main_03
+Saída
+> byte: 127
+> byte max 127
+> byte min -128
+> short: 32767
+> short max 32767
+> short min -32768
+> int: 2147483647
+> int max 2147483647
+> int min -2147483648
+> long: 9223372036854775807
+> long max 9223372036854775807
+> long min -9223372036854775808
+> float: 3.4028235E38
+> float max 3.4028235E38
+> float min 1.4E-45
+> double: 1.7976931348623157E308
+> double max 1.7976931348623157E308
+> double min 4.9E-324
+> boolean: true
+> char: A
+*/

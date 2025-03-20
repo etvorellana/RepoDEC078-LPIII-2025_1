@@ -87,4 +87,72 @@ public class Main_05 {
     
 }
 
-
+/* 
+Compilando
+$ javac Main_05.java
+Executando
+$ java Main_05
+Saída
+> a: 10
+> b: 20
+> ________________________________________
+>
+> a = 10 a1 = 10 a2 = 10
+> a3 = 10 a4 = 10 a5 = 10
+> ________________________________________
+>
+> Operadores binários
+> 
+> 10 + 10 = 20
+> 10 - 10 = 0
+> -10 -> -10
+> 10 * 0 = 0
+> 4 / 2  = 2
+> 5 / 2 = 2
+> 4 % 2 = 0
+> 5 % 2 = 1
+> ________________________________________
+>
+> Operadores de Incremento e decremento
+>
+> a = 1
+> ++a = 2
+> a++ = 2
+> a = 3
+> --a = 2
+> a-- = 2
+> a = 1
+> ________________________________________
+>
+> Operadores de Compostos
+>
+> a = 1
+> a += 5 -> a = 6
+> a -= 3 -> a = 3
+> a *= 4 -> a = 12
+> a /= 2 -> a = 6
+> a %= 3 -> a = 0
+> ________________________________________
+> 
+> Operadores de Relacionais
+>
+> 10 > 0 = true
+> 0 >= 0 = true
+> 0 < -10 = false
+> -10 <= 10 = true
+> 10 == 10 = true
+> 10 != 10 = false
+> ________________________________________
+>
+> Operadores de Lógicos
+>
+> Tabela da Verdade
+>
+> a        b       a&&b    a||b    !a
+>
+> false    false   false   false   true
+> false    true    false   true    true
+> true     true    true    true    false
+> true     false   false   true    false
+> ________________________________________
+*/

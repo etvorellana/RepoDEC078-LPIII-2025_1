@@ -58,3 +58,11 @@ public class Main_08 {
     
 }
 
+/* 
+Compilando
+$ javac Main_08.java
+Executando
+$ java Main_08
+Saída
+> 
+*/

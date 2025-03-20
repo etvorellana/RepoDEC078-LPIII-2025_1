@@ -130,5 +130,46 @@ public class Main_06 {
 
 }
 
+/* 
+Compilando
+$ javac Main_06.java
+Executando
+$ java Main_06
+Saída
+> Estruturas de Controle de Fluxo
+> Estruturas de Seleção
+> Entre com um número inteiro:
+> 1234
+> O número 1234 é par!
+> O número 1234 não é múltiplo de 3!
+> O número1234 é par!
+> O número 1234 não é múltiplo de 3!
+> O número 1234 não é divisível por 5, resto 4!
+> Estruturas de Repetição
+> A primeira potencia de 2 maior que 1234 é 2^11 = 2048
+> Pense num número inteiro entre 1 100 (incluídos)
+> O número que vc pensou é 50
+> Digite: 
+>
+> 0- Para sim;
+>
+> 1- Para não, é maior;
+>
+> 2- Para não, é menor;
+>
+> 1
+> O número que vc pensou é 75
+> Digite: 
+>
+> 0- Para sim;
+>
+> 1- Para não, é maior;
+> 
+> 2- Para não, é menor;
+>
+> 0
+> Opa, achei em 2 tentativas!!!
+> A soma de todos os inteiros de 1 até 75 é 2850
 
+*/
 

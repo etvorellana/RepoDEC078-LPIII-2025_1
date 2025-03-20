@@ -4,3 +4,12 @@ public class Main_01 {
     }
     
 }
+
+/* 
+Compilando
+$ javac Main_01.java
+Executando
+$ java Main_01
+Saída
+> 
+*/

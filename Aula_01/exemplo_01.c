@@ -9,6 +9,8 @@ typedef struct Data{
     // Ponteiros para funções que operam com datas
     void (*imprimir)(struct Data *);
     bool (*validar)(struct Data *);
+    void (*incrementa)(struct Data *, int);
+    void (*decrementa)(struct Data *, int);
 } Data;
 
 // Função para imprimir a data

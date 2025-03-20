@@ -22,4 +22,19 @@ public class Main_04 {
     }
 }
 
-
+/* 
+Compilando
+$ javac Main_04.java
+Executando
+$ java Main_04
+Saída
+> a: 10
+> b: 10
+> a: 20
+> b: 10
+> yourName: Who
+> myName: Who
+> yourName: You
+> myName: You
+> true
+*/

@@ -31,3 +31,6 @@ replay_pid*
 Aula_01/output/*
 Aula_02/output/*
 
+#Java
+*.class
+

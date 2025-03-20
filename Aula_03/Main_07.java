@@ -51,5 +51,25 @@ public class Main_07 {
     }
 }
 
-
-
+/* 
+Compilando
+$ javac Main_07.java
+Executando
+$ java Main_07
+Saída
+> Implementando funções em Java
+> Simulando 10 lançamentos de um dado:
+> ( 2, 3, 6, 3, 5, 4, 3, 5, 6, 6)
+> Todas as vezes que rodar este exemplo vai gerar o mesmo resultado!
+> Entre com a semente para gerar uma nova sequencia: 
+> 1234
+> ( 3, 6, 6, 1, 3, 4, 2, 2, 4, 2)
+> Sementes diferentes irão gerar resultados diferentes!
+>
+> A mesma semente gera o mesmo resultado!
+>
+> Escolhendo a semente de forma automática
+>
+> ( 5, 5, 5, 2, 3, 3, 4, 4, 1, 5)
+> Todas as vezes que rodar este exemplo gera diferentes resultados!
+*/

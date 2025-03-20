@@ -74,6 +74,10 @@ int main(void){
     scanf("%d", &nDatas);
     datas = alocaListaTDatas(nDatas);
     entradaDatas(datas, nDatas);
+    //...
+    datas[2].dia = 32;
+    incrementaDia(datas[2], 30);
+    //...
     imprimeDatas(datas, nDatas);
     //Questão 4. Como modularizar o código utilizando funções?
     //Questão 5. Como podemos trabalhar quantidades arbitrarias 
