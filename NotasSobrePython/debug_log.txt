@@ -1,0 +1,4 @@
+DEBUG| iceCream.py:22 in main()- add(1, 2): 3
+DEBUG| iceCream.py:12 in myFunction() at 07:28:14.606
+DEBUG| iceCream.py:15 in myFunction() at 07:28:14.606
+DEBUG| iceCream.py:25 in main()- add(3, 4): 7
