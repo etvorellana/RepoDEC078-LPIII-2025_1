@@ -132,4 +132,56 @@ public class DataV5 {
             return false;
         }   
     }
+
+    public boolean igualA(DataV5 outraData) {
+        return true;
+    }
+
+    public static boolean igualA(DataV5 data1, DataV5 data2) {
+        return true;
+    }
+
+    public boolean diferenteDe(DataV5 outraData) {
+        return true;
+    }
+
+    public static boolean diferenteDe(DataV5 data1, DataV5 data2) {
+        return true;
+    }
+
+    // menorQue
+    public boolean anterior(DataV5 outraData) {
+        return true;
+    }
+
+    // menorQue
+    public static boolean anterior(DataV5 data1, DataV5 data2) {
+        return true;
+    }
+
+    // maiorQue
+    public boolean posterior(DataV5 outraData) {
+        return true;
+    }
+    // maiorQue
+    public static boolean posterior(DataV5 data1, DataV5 data2) {
+        return true;
+    }
+
+    public boolean maiorOuIgual(DataV5 outraData) {
+        return true;
+    }
+
+    public static boolean maiorOuIgual(DataV5 data1, DataV5 data2) {
+        return true;
+    }
+
+    public boolean menorOuIgual(DataV5 outraData) {
+        return true;
+    }
+
+    public static boolean menorOuIgual(DataV5 data1, DataV5 data2) {
+        return true;
+    }
+
 }
