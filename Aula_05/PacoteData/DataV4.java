@@ -55,7 +55,7 @@ public class DataV4 {
             ano = 1970;
         }
     }
-    
+     
     public boolean iniData(byte d, byte m, short a) {
         if (!dataValida(d, m, a)) {
             return false;
@@ -68,7 +68,7 @@ public class DataV4 {
 
     public static boolean dataValida(byte d, byte m, short a) 
     {
-        byte diasMes[] = {31,28,31,30,31,30,31,31,30,31,30,31};
+        byte diasMes[] = {0,31,29,31,30,31,30,31,31,30,31,30,31};
 
         if (a < 0) {
             return false;
@@ -78,7 +78,7 @@ public class DataV4 {
             return false;
         }
 
-        if (d < 1 || d > diasMes[m-1]) {
+        if (d < 1 || d > diasMes[m]) {
             return false;
         }
 

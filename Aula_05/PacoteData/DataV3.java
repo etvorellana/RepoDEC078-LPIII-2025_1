@@ -5,7 +5,7 @@ package PacoteData;
  * 
  * @version 1.0
  */
-
+ 
 
 public class DataV3 {
 
@@ -26,7 +26,7 @@ public class DataV3 {
 
     public static boolean dataValida(byte d, byte m, short a) 
     {
-        byte diasMes[] = {31,28,31,30,31,30,31,31,30,31,30,31};
+        byte diasMes[] = {0,31,29,31,30,31,30,31,31,30,31,30,31};
 
         if (a < 0) {
             return false;
@@ -36,7 +36,7 @@ public class DataV3 {
             return false;
         }
 
-        if (d < 1 || d > diasMes[m-1]) {
+        if (d < 1 || d > diasMes[m]) {
             return false;
         }
 
@@ -94,3 +94,4 @@ public class DataV3 {
         }   
     }
 }
+ 

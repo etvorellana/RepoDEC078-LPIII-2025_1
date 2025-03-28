@@ -21,7 +21,7 @@ public class UsaDataV3 {
         }
         
         d1.mostraData();
-
+ 
 
     }
 }

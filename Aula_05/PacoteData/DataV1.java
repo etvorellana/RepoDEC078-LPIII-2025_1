@@ -22,7 +22,7 @@ public class DataV1 {
         mes = m;
         ano = a;
         return true;
-    }
+    } 
 
     public void mostraData() {
         System.out.println(dia + "/" + mes + "/" + ano);

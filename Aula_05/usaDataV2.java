@@ -9,8 +9,8 @@ public class UsaDataV2 {
         else
             System.out.println("Data inválida!");
 
-        d1.setDia((byte) 14);
-        d1.setMes((byte) 7);
+        d1.setDia((byte) 31);
+        d1.setMes((byte) 14);
 
         d1.mostraData();
 
