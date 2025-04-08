@@ -15,4 +15,4 @@ Implemente, na classe DataV5 do pacote PacoteData, os métodos relacionais
 12. public static boolean menorOuIgual(DataV5 data1, DataV5 data2)
 
 Implemente uma aplicação UsaDataV5.java, com base no UsaDataV4.java, para 
-demonstrar a utilização destes métodos. 
+demonstrar a utilização destes métodos.
