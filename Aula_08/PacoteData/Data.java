@@ -133,55 +133,121 @@ public class Data {
         }   
     }
 
-    public boolean igualA(Data outraData) {
-        return true;
+    public boolean igualA(Data outraData) 
+    {
+        if (outraData == null)
+            return false;
+        return outraData.dia == this.dia && outraData.mes == this.mes && outraData.ano == this.ano;
     }
 
-    public static boolean igualA(Data data1, Data data2) {
-        return true;
+    public static boolean igualA(Data data1, Data data2) 
+    {
+        if (data1 == null || data2 == null)
+            return false;
+        return data1.dia == data2.dia && data1.mes == data2.mes && data1.ano == data2.ano;
     }
 
-    public boolean diferenteDe(Data outraData) {
-        return true;
+    public boolean diferenteDe(Data outraData) 
+    {
+        //return !this.igualA(outraData) //ou  
+        return this.igualA(outraData) == false;
     }
 
-    public static boolean diferenteDe(Data data1, Data data2) {
-        return true;
+    public static boolean diferenteDe(Data data1, Data data2) 
+    {
+        return !igualA(data1, data2);
     }
 
     // menorQue
-    public boolean anterior(Data outraData) {
-        return true;
+    public boolean anterior(Data outraData) 
+    {
+        if (outraData == null)
+            return false;
+        if (this.ano < outraData.ano) {
+            return true;
+        } else if (this.ano == outraData.ano) {
+            if (this.mes < outraData.mes) {
+                return true;
+            } else if (this.mes == outraData.mes) {
+                return this.dia < outraData.dia;
+            }
+        }
+        return false;
     }
 
     // menorQue
-    public static boolean anterior(Data data1, Data data2) {
-        return true;
+    public static boolean anterior(Data data1, Data data2) 
+    {
+        if (data1 == null || data2 == null)
+            return false;
+        if (data1.ano < data2.ano) {
+            return true;
+        } else if (data1.ano == data2.ano) {
+            if (data1.mes < data2.mes) {
+                return true;
+            } else if (data1.mes == data2.mes) {
+                return data1.dia < data2.dia;
+            }
+        }
+        return false;
     }
 
     // maiorQue
-    public boolean posterior(Data outraData) {
-        return true;
+    public boolean posterior(Data outraData) 
+    {
+        if (outraData == null)
+            return false;
+        if (this.ano > outraData.ano) {
+            return true;
+        } else if (this.ano == outraData.ano) {
+            if (this.mes > outraData.mes) {
+                return true;
+            } else if (this.mes == outraData.mes) {
+                return this.dia > outraData.dia;
+            }
+        }
+        return false;
     }
+
     // maiorQue
-    public static boolean posterior(Data data1, Data data2) {
-        return true;
+    public static boolean posterior(Data data1, Data data2) 
+    {
+        if (data1 == null || data2 == null)
+            return false;
+        if (data1.ano > data2.ano) {
+            return true;
+        } else if (data1.ano == data2.ano) {
+            if (data1.mes > data2.mes) {
+                return true;
+            } else if (data1.mes == data2.mes) {
+                return data1.dia > data2.dia;
+            }
+        }
+        return false;
     }
 
-    public boolean maiorOuIgual(Data outraData) {
-        return true;
+    public boolean maiorOuIgual(Data outraData) 
+    {
+        return this.igualA(outraData) || this.posterior(outraData);
     }
 
-    public static boolean maiorOuIgual(Data data1, Data data2) {
-        return true;
+    public static boolean maiorOuIgual(Data data1, Data data2) 
+    {
+        return igualA(data1, data2) || posterior(data1, data2);
     }
 
-    public boolean menorOuIgual(Data outraData) {
-        return true;
+    public boolean menorOuIgual(Data outraData) 
+    {
+        return this.igualA(outraData) || this.anterior(outraData);
     }
 
-    public static boolean menorOuIgual(Data data1, Data data2) {
-        return true;
+    public static boolean menorOuIgual(Data data1, Data data2) 
+    {
+        return igualA(data1, data2) || anterior(data1, data2);
+    }
+
+    public String toString() {
+        return dia + "/" + mes + "/" + ano;
     }
 
 }

@@ -1,8 +1,8 @@
-import PacoteData.DataV5;
+import PacoteData.Data;
  
 public class UsaDataV5 {
     public static void main(String[] args) {
-        DataV5 d1 = new DataV5((byte)1,(byte)1,(short)2000);
+        Data d1 = new Data((byte)1,(byte)1,(short)2000);
         d1.mostraData();
         boolean ok = d1.iniData((byte) 1, (byte) 1, (short) 2021);
         if (ok == true)
@@ -12,7 +12,7 @@ public class UsaDataV5 {
 
         byte d = 14;
         byte m = 7;
-        if (DataV5.dataValida(d, m, (short) 2021)) {
+        if (Data.dataValida(d, m, (short) 2021)) {
             System.out.println("Data válida!");
             d1.setDia(d);
             d1.setMes(m);
@@ -22,11 +22,11 @@ public class UsaDataV5 {
         
         d1.mostraData();
 
-        DataV5 d2 = new DataV5(d1);
+        Data d2 = new Data(d1);
         d2.mostraData();
-        DataV5 d3 = new DataV5(d1, 45);
+        Data d3 = new Data(d1, 45);
         d3.mostraData();
-        DataV5 d4 = new DataV5();
+        Data d4 = new Data();
         d4.mostraData();
 
         if (d1 == d2)
